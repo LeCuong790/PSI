@@ -1,0 +1,22 @@
+//
+//  PSI-Prefix.pch
+//  PSI
+//
+//  Created by Le Viet Cuong on 12/9/15.
+//  Copyright © 2015 Le Viet Cuong. All rights reserved.
+//
+
+#ifndef PSI_Prefix_pch
+#define PSI_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PSI_Prefix_pch */
+
+#define AMSlideMenuWithoutStoryboards
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
